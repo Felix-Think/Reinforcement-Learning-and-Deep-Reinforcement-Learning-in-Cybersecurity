@@ -6,7 +6,7 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "gym>=0.26.2",
-    "gymnasium[classic-control]>=1.2.3",
+    "gymnasium[box2d,classic-control]>=1.2.3",
     "matplotlib>=3.10.8",
     "moviepy>=2.2.1",
     "nasim[dqn]>=0.12.0",
